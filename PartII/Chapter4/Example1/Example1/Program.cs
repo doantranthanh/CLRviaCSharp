@@ -12,8 +12,8 @@ namespace Example1
         {
             //Cast example 1
             //No cast needed
-            Object o = new Employee();
-            Employee e = (Employee) o;
+            Object o1 = new Employee();
+            Employee e1 = (Employee) o1;
 
             //Cast example 2
             /* this line of codes will work both runtime and compile time
@@ -31,6 +31,25 @@ namespace Example1
             //PromoteEmployee(newYears);
 
             //Casting with the C# is and as Operators
+            Object o2 = new Object();
+            Boolean b1 = (o2 is Object);
+            Console.WriteLine(b1);
+            Boolean b2 = (o2 is Employee); 
+            Console.WriteLine(b2);
+
+            if (o2 is Employee)
+            {
+                Employee e2 = (Employee) o2;
+            }
+
+            Employee e3 = o2 as Employee;
+            if (e3 != null)
+            {
+                
+            }
+
+            //Checking Table
+
         }
 
         private static void PromoteEmployee(Object o)
@@ -47,5 +66,12 @@ namespace Example1
     internal class Manager : Employee
     {
         
+    }
+
+    internal class B
+    { // Base class
+    }
+    internal class D : B
+    { // Derived class
     }
 }
