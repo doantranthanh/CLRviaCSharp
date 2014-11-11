@@ -1,0 +1,4 @@
+C:\myprojects\CLRviaCSharp\PartII\Chapter4\Example1\Example1\bin\Debug\Example1.exe
+C:\myprojects\CLRviaCSharp\PartII\Chapter4\Example1\Example1\bin\Debug\Example1.pdb
+C:\myprojects\CLRviaCSharp\PartII\Chapter4\Example1\Example1\obj\x86\Debug\Example1.exe
+C:\myprojects\CLRviaCSharp\PartII\Chapter4\Example1\Example1\obj\x86\Debug\Example1.pdb
